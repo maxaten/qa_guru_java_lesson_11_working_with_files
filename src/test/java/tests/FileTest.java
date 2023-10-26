@@ -56,7 +56,7 @@ public class FileTest extends TestBase{
     }
 
     @Test
-    void downloadXlsFileTest() throws Exception {
+    void downloadXlsFileTest() throws Exception  {
         open("https://ruexcel.ru/goodfiles-1/");
 
         File downloaded = $("a[href*='Excel.xlsx']").download();
