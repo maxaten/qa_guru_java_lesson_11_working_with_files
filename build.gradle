@@ -12,13 +12,10 @@ repositories {
 dependencies {
     testImplementation "com.codeborne:selenide:6.19.0"
     testImplementation "org.junit.jupiter:junit-jupiter:5.10.0"
-    testImplementation ('com.codeborne:pdf-test:1.8.1'){
-//         exclude group: 'org.apache.poi'
-    }
-
-    testImplementation ('com.codeborne:xls-test:1.4.3'){
-//        exclude group: "org.apache.poi"
-    }
+    testImplementation "com.codeborne:pdf-test:1.8.1"
+    testImplementation "com.codeborne:xls-test:1.4.3"
+    testImplementation "com.opencsv:opencsv:5.7.1"
+    testImplementation "com.google.code.gson:gson:2.10.1"
 
 
     testRuntimeOnly (
